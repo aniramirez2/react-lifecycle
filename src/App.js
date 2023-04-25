@@ -11,7 +11,7 @@ import ComponentWillUnmountMethod from './components/Unmounting/componentWillUnm
 export default class App extends Component {
   render() {
     return (
-      <>
+      <div style={{padding: '50px'}}>
       <h1>Mounting</h1>
       <h2>constructor Method</h2>
        <ConstructorMethod />
@@ -31,7 +31,7 @@ export default class App extends Component {
        <h1>Unmounting</h1>
        <h2>componentWillUnmount Method </h2>
        <ComponentWillUnmountMethod />
-      </>
+      </div>
     )
   }
 }

@@ -10,7 +10,7 @@ export default class componentDidUpdateMethod extends Component {
     componentDidMount(){
         setTimeout(() => {
             this.setState({name: "to current state"})
-          }, 5000)
+          }, 10000)
     }
     componentDidUpdate(prevState){
         if(prevState.name !== this.state.name){

@@ -13,7 +13,7 @@ export default class componentDidMountMethod extends Component {
       //Example 1
     setTimeout(() => {
       this.setState({name: "This is a componentDidMount Method"})
-    }, 5000)
+    }, 10000)
 
     //Example 2 Calling API Data
 
